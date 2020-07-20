@@ -1,0 +1,15 @@
+{
+  "name": "moviesondemand",
+  "version": "1.0.0",
+  "description": "show list of upcoming,latest,nowplaying moview along with searchoption from TMDB movies database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "krishanktripathi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
