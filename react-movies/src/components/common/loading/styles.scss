@@ -1,0 +1,7 @@
+@import "src/assets/styles/variables.scss";
+$loading-width: 60px;
+
+.loading {
+  width: $loading-width;
+  margin: $section-spacing auto;
+}
