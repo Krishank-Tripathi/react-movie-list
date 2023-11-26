@@ -1,16 +1,22 @@
 {
   "name": "moviesondemand",
   "version": "1.0.0",
+  "homepage": "https://Krishank-Tripathi.github.io/react-movie-list",
   "description": "show list of upcoming,latest,nowplaying moview along with searchoption from TMDB movies database",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node index.js"
+    "start": "node index.js",
+    "predeploy": "npm --prefix react-movies run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "krishanktripathi",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
